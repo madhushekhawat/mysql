@@ -18,7 +18,7 @@ PreparedStatement ps = null;
 ResultSet rs = null;
 
 String driverName = "com.mysql.jdbc.Driver";
-String url = "jdbc:mysql://localhost:3309/openshift";
+String url = "jdbc:mysql://127.0.0.1:3309/openshift";
 String user = "root";
 String dbpsw = "Madhu@123";
 
