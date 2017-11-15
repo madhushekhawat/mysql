@@ -14,8 +14,8 @@ PreparedStatement ps = null;
 ResultSet rs = null;
 
 String driverName = "com.mysql.jdbc.Driver";
-String url1="jdbc:mysql://localhost:3306/openshift?autoReconnect=true&useSSL=false";
-String url = "jdbc:mysql://localhost:3309/openshift";
+String url1="jdbc:mysql://127.0.0.1:3306/openshift?autoReconnect=true&useSSL=false";
+String url = "jdbc:mysql://127.0.0.1:3309/openshift";
 String user = "root";
 String password = "Madhu@123";
 
