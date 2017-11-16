@@ -19,7 +19,7 @@ String url = "jdbc:mysql://172.30.190.147:3306/openshift";
 String user = "root";
 String password = "Madhu@123";
 
-String sql = "select usertype from userdetail";
+String sql = "select usertype from pp";
 
 try {
 Class.forName(driverName);
