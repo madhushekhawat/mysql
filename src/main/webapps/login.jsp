@@ -19,8 +19,8 @@ ResultSet rs = null;
 
 String driverName = "com.mysql.jdbc.Driver";
 String url = "jdbc:mysql://172.30.190.147/openshift";
-String user = "user";
-String dbpsw = "user";
+String user = "root";
+String dbpsw = "Madhu@123";
 
 String sql = "select * from userdetail where name=? and password=? and usertype=?";
 
